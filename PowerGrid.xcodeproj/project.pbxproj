@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF41BF931B18304700156CDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF41BF921B18304700156CDE /* AppDelegate.swift */; };
+		BF41BF951B18304700156CDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF41BF941B18304700156CDE /* ViewController.swift */; };
+		BF41BF981B18304700156CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF41BF961B18304700156CDE /* Main.storyboard */; };
+		BF41BF9A1B18304700156CDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF41BF991B18304700156CDE /* Images.xcassets */; };
+		BF41BF9D1B18304700156CDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF41BF9B1B18304700156CDE /* LaunchScreen.xib */; };
+		BF41BFA91B18304800156CDE /* PowerGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF41BFA81B18304800156CDE /* PowerGridTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF41BFA31B18304800156CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF41BF851B18304700156CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF41BF8C1B18304700156CDE;
+			remoteInfo = PowerGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF41BF8D1B18304700156CDE /* PowerGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF41BF911B18304700156CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF41BF921B18304700156CDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF41BF941B18304700156CDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF41BF971B18304700156CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF41BF991B18304700156CDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BF41BF9C1B18304700156CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BF41BFA21B18304800156CDE /* PowerGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF41BFA71B18304800156CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF41BFA81B18304800156CDE /* PowerGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerGridTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF41BF8A1B18304700156CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF41BF9F1B18304800156CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF41BF841B18304700156CDE = {
+			isa = PBXGroup;
+			children = (
+				BF41BF8F1B18304700156CDE /* PowerGrid */,
+				BF41BFA51B18304800156CDE /* PowerGridTests */,
+				BF41BF8E1B18304700156CDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF41BF8E1B18304700156CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF41BF8D1B18304700156CDE /* PowerGrid.app */,
+				BF41BFA21B18304800156CDE /* PowerGridTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF41BF8F1B18304700156CDE /* PowerGrid */ = {
+			isa = PBXGroup;
+			children = (
+				BF41BF921B18304700156CDE /* AppDelegate.swift */,
+				BF41BF941B18304700156CDE /* ViewController.swift */,
+				BF41BF961B18304700156CDE /* Main.storyboard */,
+				BF41BF991B18304700156CDE /* Images.xcassets */,
+				BF41BF9B1B18304700156CDE /* LaunchScreen.xib */,
+				BF41BF901B18304700156CDE /* Supporting Files */,
+			);
+			path = PowerGrid;
+			sourceTree = "<group>";
+		};
+		BF41BF901B18304700156CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF41BF911B18304700156CDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF41BFA51B18304800156CDE /* PowerGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF41BFA81B18304800156CDE /* PowerGridTests.swift */,
+				BF41BFA61B18304800156CDE /* Supporting Files */,
+			);
+			path = PowerGridTests;
+			sourceTree = "<group>";
+		};
+		BF41BFA61B18304800156CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF41BFA71B18304800156CDE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF41BF8C1B18304700156CDE /* PowerGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF41BFAC1B18304800156CDE /* Build configuration list for PBXNativeTarget "PowerGrid" */;
+			buildPhases = (
+				BF41BF891B18304700156CDE /* Sources */,
+				BF41BF8A1B18304700156CDE /* Frameworks */,
+				BF41BF8B1B18304700156CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerGrid;
+			productName = PowerGrid;
+			productReference = BF41BF8D1B18304700156CDE /* PowerGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF41BFA11B18304800156CDE /* PowerGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF41BFAF1B18304800156CDE /* Build configuration list for PBXNativeTarget "PowerGridTests" */;
+			buildPhases = (
+				BF41BF9E1B18304800156CDE /* Sources */,
+				BF41BF9F1B18304800156CDE /* Frameworks */,
+				BF41BFA01B18304800156CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF41BFA41B18304800156CDE /* PBXTargetDependency */,
+			);
+			name = PowerGridTests;
+			productName = PowerGridTests;
+			productReference = BF41BFA21B18304800156CDE /* PowerGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF41BF851B18304700156CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Linda Nguyen";
+				TargetAttributes = {
+					BF41BF8C1B18304700156CDE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					BF41BFA11B18304800156CDE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = BF41BF8C1B18304700156CDE;
+					};
+				};
+			};
+			buildConfigurationList = BF41BF881B18304700156CDE /* Build configuration list for PBXProject "PowerGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF41BF841B18304700156CDE;
+			productRefGroup = BF41BF8E1B18304700156CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF41BF8C1B18304700156CDE /* PowerGrid */,
+				BF41BFA11B18304800156CDE /* PowerGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF41BF8B1B18304700156CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF41BF981B18304700156CDE /* Main.storyboard in Resources */,
+				BF41BF9D1B18304700156CDE /* LaunchScreen.xib in Resources */,
+				BF41BF9A1B18304700156CDE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF41BFA01B18304800156CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF41BF891B18304700156CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF41BF951B18304700156CDE /* ViewController.swift in Sources */,
+				BF41BF931B18304700156CDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF41BF9E1B18304800156CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF41BFA91B18304800156CDE /* PowerGridTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF41BFA41B18304800156CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF41BF8C1B18304700156CDE /* PowerGrid */;
+			targetProxy = BF41BFA31B18304800156CDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF41BF961B18304700156CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF41BF971B18304700156CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF41BF9B1B18304700156CDE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF41BF9C1B18304700156CDE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF41BFAA1B18304800156CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BF41BFAB1B18304800156CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF41BFAD1B18304800156CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PowerGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF41BFAE1B18304800156CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PowerGrid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF41BFB01B18304800156CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PowerGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerGrid.app/PowerGrid";
+			};
+			name = Debug;
+		};
+		BF41BFB11B18304800156CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PowerGridTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerGrid.app/PowerGrid";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF41BF881B18304700156CDE /* Build configuration list for PBXProject "PowerGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF41BFAA1B18304800156CDE /* Debug */,
+				BF41BFAB1B18304800156CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF41BFAC1B18304800156CDE /* Build configuration list for PBXNativeTarget "PowerGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF41BFAD1B18304800156CDE /* Debug */,
+				BF41BFAE1B18304800156CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BF41BFAF1B18304800156CDE /* Build configuration list for PBXNativeTarget "PowerGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF41BFB01B18304800156CDE /* Debug */,
+				BF41BFB11B18304800156CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF41BF851B18304700156CDE /* Project object */;
+}
