@@ -13,6 +13,7 @@
 		BF41BF9A1B18304700156CDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF41BF991B18304700156CDE /* Images.xcassets */; };
 		BF41BF9D1B18304700156CDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF41BF9B1B18304700156CDE /* LaunchScreen.xib */; };
 		BF41BFA91B18304800156CDE /* PowerGridTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF41BFA81B18304800156CDE /* PowerGridTests.swift */; };
+		BF41BFBB1B1840A100156CDE /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF41BFBA1B1840A100156CDE /* Resource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		BF41BFA21B18304800156CDE /* PowerGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF41BFA71B18304800156CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF41BFA81B18304800156CDE /* PowerGridTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerGridTests.swift; sourceTree = "<group>"; };
+		BF41BFBA1B1840A100156CDE /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = Models/Resource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				BF41BF961B18304700156CDE /* Main.storyboard */,
 				BF41BF991B18304700156CDE /* Images.xcassets */,
 				BF41BF9B1B18304700156CDE /* LaunchScreen.xib */,
+				BF41BFB91B18409600156CDE /* Models */,
 				BF41BF901B18304700156CDE /* Supporting Files */,
 			);
 			path = PowerGrid;
@@ -110,6 +113,14 @@
 				BF41BFA71B18304800156CDE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF41BFB91B18409600156CDE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF41BFBA1B1840A100156CDE /* Resource.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF41BFBB1B1840A100156CDE /* Resource.swift in Sources */,
 				BF41BF951B18304700156CDE /* ViewController.swift in Sources */,
 				BF41BF931B18304700156CDE /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +423,7 @@
 				BF41BFAE1B18304800156CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF41BFAF1B18304800156CDE /* Build configuration list for PBXNativeTarget "PowerGridTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				BF41BFB11B18304800156CDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
