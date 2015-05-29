@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1400BE1B1840DF0015B76C /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1400BD1B1840DF0015B76C /* Plant.swift */; };
 		BF41BF931B18304700156CDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF41BF921B18304700156CDE /* AppDelegate.swift */; };
 		BF41BF951B18304700156CDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF41BF941B18304700156CDE /* ViewController.swift */; };
 		BF41BF981B18304700156CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF41BF961B18304700156CDE /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF1400BD1B1840DF0015B76C /* Plant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Plant.swift; path = Models/Plant.swift; sourceTree = "<group>"; };
 		BF41BF8D1B18304700156CDE /* PowerGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF41BF911B18304700156CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF41BF921B18304700156CDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		BF41BFB91B18409600156CDE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BF1400BD1B1840DF0015B76C /* Plant.swift */,
 				BF41BFBA1B1840A100156CDE /* Resource.swift */,
 			);
 			name = Models;
@@ -224,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF41BFBB1B1840A100156CDE /* Resource.swift in Sources */,
+				BF1400BE1B1840DF0015B76C /* Plant.swift in Sources */,
 				BF41BF951B18304700156CDE /* ViewController.swift in Sources */,
 				BF41BF931B18304700156CDE /* AppDelegate.swift in Sources */,
 			);
